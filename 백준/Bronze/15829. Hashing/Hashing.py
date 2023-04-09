@@ -8,4 +8,4 @@ for i in s:
     number = ord(i)-96
     result += number *(31**count)
     count+=1
-print(result)
+print(result%1234567891)
